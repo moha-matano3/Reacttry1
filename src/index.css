@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.Navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid red;
+}
+
+.Content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.Navbar h1 {
+  color: maroon;
+}
+
+.Navbar .Links {
+  margin-left: auto;
+}
+
+.Navbar a {
+  margin-left: auto;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+
+.Navbar a:hover {
+  color: skyblue;
+}
+
+.Home {
+  text-align: left;
+}
+
+.Home h2 {
+color: maroon;
+}
+
+.preview {
+  padding: 10px 16px;
+  margin: 20px 0px;
+  border-bottom: 1px solid maroon;
+}
+.preview a{
+  text-decoration: none;
+}
+.preview:hover{
+  box-shadow: 1px 3px 5px rgb(32, 31, 31);
+}
+.preview h3{
+  font-size: 20px;
+}
+.preview p{
+  color: maroon;
+}
+.blog-details h2{
+font-size: 20px;
+color: maroon;
+margin-top: 10px;
+text-align: left;
+}
+.blog-details div{
+margin: 20px 0;
+text-align: left;
+}
+.blog-details p{
+text-align: left;
+}
+.btn{
+  float: left;
+}
+.NotFound a{
+  color: red;
+}
